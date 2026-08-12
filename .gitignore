@@ -1,0 +1,29 @@
+
+# === Generative AI & LLMs ===
+# API Keys and environment secrets
+.env
+.env.local
+secrets.json
+
+# Local LLM weights and checkpoints
+*.bin
+*.gguf
+*.onnx
+*.pt
+*.pth
+*.ckpt
+models/
+weights/
+
+# AI Framework caches (Hugging Face, OpenAI, etc.)
+.cache/
+.huggingface/
+.langchain/
+vector_stores/
+chroma_db/
+faiss_index/
+EOF
+
+
+__pycache__/
+.mypy_cache/
